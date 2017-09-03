@@ -1,0 +1,137 @@
+26/10/2014
+
+Projectiles
+Setup Item Health system
+redid item structure
+
+Binds -> Tradable/untradable
+Data3 -> EquipmentType
+Type -> ItemType
+CombatType -> WeaponType
+TAKE OUT RARITY
+TAKE OUT LEVEL REQUIRED
+Data2 -> Damage
+Data1 -> Spell
+TAKE OUT MASTERY
+Make AddMP/XP/HP to an array
+Pic -> Picture
+Desc -> Description
+TAKE OUT CLASSES
+TAKE OUT HANDED
+Price -> Value
+TAKE OUT CONSUMEITEMGIVEBACK
+ADDED STACKABLE
+
+Multiple Bank Tabs Base
+
+27/10/2014
+Bank System
+	- Custom withdraw and deposit multipliers
+	- Fix the rendering offset for bank items
+Replace global Mana for prayer
+Replace XP for Summoning
+Replace Stat for Skill
+Implemented a hardcoded USE ITEM script system
+worked on base of extra equipiment slots
+extra equipment interface
+Tradable/untradable items base
+changed currency item types to stackable item attributes. Equipment can be stackable.
+multiple shop item costs
+Made the client and server compile-able (NO GUARENTEED STABILITY)
+2h weapons
+
+28/10/2014
+	hardcoded conversation system
+	global xp rate mod
+	Shop System
+		- Base
+			- Give xp or not on buy
+			- Max stock
+			- Stock
+			- Buy Verb
+			- Shop Currency
+			- Visible shop interface
+			- Interface Num
+			- Only Buy Items In Stock
+
+29/10/2014
+	Map Item System
+		- Tradable Items are now visible after x duration after dropped
+		- Untradable items aren't.
+	server sided player editor
+	hardcoded WALK ON TILE events
+
+1/11/2014
+	Shop System
+		- Purchasing multiple of an item
+		- Selling multiple of an item
+		- Custom background image
+		- Shop Stock (stock goes up 1 every 10 seconds)
+		-  Skill requirement
+		- Skill XP bonus
+		- Custom Shop selling and buying
+	Player Custom Value Lists
+	anti-consume spamming
+	random resource health
+	Resource Multiple rewards
+
+2/11/2014
+	Re-worked the magic system
+
+3/11/2014
+	hardcoded CAN ATTACK NPC requirements for slayer
+	Spells
+		- Spells that stun exempt the player or npc from being frozen or stunned for the duration of the stun after being unstunned
+	Base of NPC vs NPC combat
+
+7/11/2014 DAY 8
+	stats increase or decrease over time
+	overload logic
+	potion logic (All you need to do is just increase their stats)
+	level turnover for give skill xp
+	npc vs npc
+	resources give xp
+	Tradable/untradable items
+
+9/11/2014 DAY 9
+	NPC Multiple Drops
+	NPC drops given to people who did most damage
+		Store damage done to each npc
+	map attackable object attributes
+
+10/11/2014 DAY 10
+	hardcoded KILLED NPC modifiers
+		- Boss NPC; Warp to another map
+		- Give Slayer XP, or other xp
+	Worked on GUI system
+	Removing Player Vitals for Skills
+
+16/11/2014 DAY 16
+	Improved GUI
+	General Tweaks
+	Added Special Attacks
+	multiple sprites with changing sprites for equipment
+
+17/11/2014 Day 17
+	Worked on Summoning
+	Worked on Clans
+	Client is compilable, server isn't
+
+22/11/2014 Day 18
+	Tweaked Clans
+	Players Walk Through Other players EXCEPT On pvp maps
+	Worked on projectiles with NPC projectiles
+
+23/11/2014 Day 19
+	NPC Projectiles
+
+24/11/2014 Day 20
+	Map instances (without parties)
+
+07/12/2015 Day 21
+	Insert player sprite handling, with dynamic paperdoll rendering
+	Fixed up the algorithm for the skill interface
+	Converted Old Buddyscape Map to the current system
+	Changed movement to use WASD
+	Added enter to focus on the chatbar, and off the chatbar to allow WASD movement
+	Tinkered around with sprite rendering

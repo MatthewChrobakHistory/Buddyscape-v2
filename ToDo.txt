@@ -1,0 +1,40 @@
+redo-combat system
+	Items Dropped on death
+
+Party System
+	- Player Messages
+	- Clan Messages
+	- Team slayer
+	- Loot share
+
+hardcoded NPC DAMAGE modifiers
+	- Firebreath from dragons
+	- Monster turns into another npc (EG JAD turns from Mage to Range)
+hardcoded PLAYER DAMAGE NPC modifiers
+	- BOSS NPC: When health is less than half, change into a new npc like glacors
+hardcoded PLAYER DAMAGE PLAYER modifiers
+	- Void & other armor sets
+hardcoded RESOURCE XP modifiers
+	- XP Boosts based on armor
+
+pets
+quest system
+NPC Spells
+
+LATER:
+
+Bots
+	- THIS to make the game seem less empty.
+
+Implement Custom Item Health Degrading
+	- Degrade items when using them in combat
+	- Make Bank Items Unique
+	- Render Health bars for items in bank
+	- Render Health Bars for items in inventory
+	- Render Health Bars for items in equipment
+
+pathfinding
+dropdown box for things
+Construction
+	- Owners must be online to enter their house OR Use map instances. Each player has an instanced map, and it transfers if the owner leaves.
+map animations
